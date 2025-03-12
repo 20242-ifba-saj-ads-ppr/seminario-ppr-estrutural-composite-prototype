@@ -1,7 +1,7 @@
 # Composite
 
 ## Motivação: 
-No desenvolvimento de sistemas que lidam com estruturas hierárquicas, como sistemas de arquivos, interfaces de usuário ou organizações de objetos em jogos, é comum enfrentar desafios relacionados à complexidade do gerenciamento dessas estruturas. O padrão Composite surge como uma solução elegante para tratar objetos individuais e composições de objetos de forma uniforme, simplificando o código e melhorando a manutenção e a escalabilidade do sistema.
+No desenvolvimento de sistemas que lidam com estruturas hierárquicas, como sistemas de arquivos, interfaces de usuário ou organizações de objetos em jogos, é comum enfrentar desafios relacionados à complexidade do gerenciamento dessas estruturas. O padrão Composite surge como uma solução para tratar objetos individuais e composições de objetos de forma uniforme, simplificando o código e melhorando a manutenção e a escalabilidade do sistema.
 
 ## Participantes
 
