@@ -21,4 +21,35 @@ No desenvolvimento de sistemas que lidam com estruturas hierárquicas, como sist
 - **Cliente (Main):**
   - Cria a estrutura de pastas e arquivos.
   - Chama o método `mostrar()` na pasta principal, que percorre toda a estrutura de forma recursiva.
+ 
+## Diagrama UML
+
+```mermaid
+classDiagram
+    class Componente {
+        <<interface>>
+        +mostrar()
+    }
+
+    class Folha {
+        -String nome
+        +mostrar()
+    }
+
+    class Composite {
+        -String nome
+        -List~Componente~ componentes
+        +adicionar(Componente componente)
+        +remover(Componente componente)
+        +mostrar()
+    }
+
+    class Main {
+        +main(String[] args)
+    }
+
+    Componente <|.. Folha
+    Componente <|.. Composite
+    Composite o-- Componente
+    Main --> Componente
 
