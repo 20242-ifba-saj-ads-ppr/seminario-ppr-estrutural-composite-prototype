@@ -34,8 +34,14 @@ Menu Principal
 │   ├── Combo Dogão (Hot Dog, Refrigerante, Nachos) - R$ 32.00
 │   ├── Combo Sobremesas (Bolo Chocolate, Pudim, Suco Natural) - R$ 22.00
 ├── Bebidas
-│   ├── Refrigerante - R$ 5.00
-│   ├── Suco Natural - R$ 7.00
+│   ── Refrigerante - R$ 5.00
+│   ├── Pepsi - R$ 5.00
+│   ├── Coca Cola - R$ 5.00
+│   ├── Guaraná Antarctica - R$ 5.00
+│   ── Suco Natural - R$ 7.00 
+│   ├── Laranja - R$ 7.00
+│   ├── Acerola - R$ 7.00
+│   ├── Graviola - R$ 7.00
 ├── Entradas
 │   ├── Batata Frita - R$ 15.00
 │   ├── Onion Rings - R$ 9.00
