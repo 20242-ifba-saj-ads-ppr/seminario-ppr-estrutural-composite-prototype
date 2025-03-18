@@ -1,7 +1,7 @@
 package ComComposite;
 
-
 abstract class MenuComponent {
+
     public void add(MenuComponent menuComponent) {
         throw new UnsupportedOperationException();
     }
@@ -26,4 +26,3 @@ abstract class MenuComponent {
         throw new UnsupportedOperationException();
     }
 }
-

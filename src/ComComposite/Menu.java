@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Menu extends MenuComponent {
-    private List<MenuComponent> components = new ArrayList<>();
+    protected List<MenuComponent> components = new ArrayList<>();
     private String nome;
 
     public Menu(String nome) {
@@ -29,6 +29,15 @@ class Menu extends MenuComponent {
     @Override
     public String getNome() {
         return nome;
+    }
+
+    @Override
+    public double getPreco() {
+        double precoTotal = 0;
+        for (MenuComponent component : components) {
+            precoTotal += component.getPreco();
+        }
+        return precoTotal;
     }
 
     @Override

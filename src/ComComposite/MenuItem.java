@@ -21,6 +21,6 @@ class MenuItem extends MenuComponent {
 
     @Override
     public void display() {
-        System.out.println("Item: " + getNome() + ", Preco: " + getPreco());
+        System.out.println("  Item: " + getNome() + " | Preço: R$ " + getPreco());
     }
 }
